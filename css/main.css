@@ -3,6 +3,7 @@ body {
     background: #fff;
     -webkit-background-size: 100% 100%;
     overflow: hidden;
+    margin: 0 0 0 0;
 }
 
 html {
@@ -10,7 +11,7 @@ html {
 }
 
 .bg {
-    background-image: url("../img/background.jpg");
+    background-image: url("https://djmemo.github.io/ElitRP-loadingscreen/img/background.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
