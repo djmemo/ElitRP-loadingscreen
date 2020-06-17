@@ -1,14 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css?3" />
     <title>ElitRP</title>
 </head>
 
 <body>
     <div class="bg"></div>
+
+    <!-- <div id="spambox"></div> -->
+
+    <script type="text/javascript">
+        function GameDetails(servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang) {
+            // Do with these what you will :)
+            // this function gets called only when joining a multiplayer server
+
+            // $("#spambox").append("serverurl: " + serverurl + "<br>");
+            // $("#spambox").append("servername: " + servername + "<br>");
+            // $("#spambox").append("maxplayers: " + maxplayers + "<br>");
+            // $("#spambox").append("steamid: " + steamid + "<br>");
+            // $("#spambox").append("gamemode: " + gamemode + "<br>");
+            // $("#spambox").append("mapname: " + mapname + "<br>");
+            // $("#spambox").append("volume: " + volume + "<br>");
+            // $("#spambox").append("lang: " + lang + "<br>");
+
+        }
+
+        // A file has begun downloading
+        function DownloadingFile(file) {
+            //$("#spambox").prepend( "<span style='color:red'>" + file + "</span><br>");
+        }
+
+        // This will not be called when DownloadingFile() is
+        function SetStatusChanged(status) {
+            //$("#spambox").prepend( status + "<br>");
+        }
+    </script>
 </body>
 
 </html>
